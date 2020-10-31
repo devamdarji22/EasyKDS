@@ -7,7 +7,7 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 public class OrderViewHolder extends RecyclerView.ViewHolder {
-    TextView itemName,quantity;
+    public TextView itemName,quantity;
     public OrderViewHolder(@NonNull View itemView) {
         super(itemView);
         itemName = itemView.findViewById(R.id.item_name);

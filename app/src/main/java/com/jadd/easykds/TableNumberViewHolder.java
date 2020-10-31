@@ -9,9 +9,9 @@ import androidx.recyclerview.widget.RecyclerView;
 import androidx.recyclerview.widget.StaggeredGridLayoutManager;
 
 public class TableNumberViewHolder extends RecyclerView.ViewHolder {
-    RecyclerView orderView;
-    LinearLayoutManager layoutManager;
-    TextView tableNumberView;
+    public RecyclerView orderView;
+    public LinearLayoutManager layoutManager;
+    public TextView tableNumberView;
     public TableNumberViewHolder(@NonNull View itemView) {
         super(itemView);
         layoutManager = new LinearLayoutManager(itemView.getContext(),LinearLayoutManager.VERTICAL,false);
